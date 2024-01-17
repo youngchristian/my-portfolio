@@ -45,7 +45,7 @@
 .br-left {
     position: fixed;
     z-index: 999999;
-    background: var(--primary-color);
+    background: var(--white);
 }
 
 .br-top {

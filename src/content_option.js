@@ -1,144 +1,99 @@
-const logotext = "JOHN";
+const logotext = "CLMN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Christian Joel Clemen",
+    description: "Christian Joel Clemen, a passionate individual with a flair for building custom PCs, combining technical expertise with a creative touch to construct high-performance systems tailored to specific needs and preferences.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I am Christian Joel Clemen",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love watching cool pc builds",
+        second: "I love building pc's",
+        third: "Building pc is my passion",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Christian Joel Clemen is an enthusiast who excels in constructing personalized computer systems, blending technical know-how with creative finesse to craft high-performance setups aligned with individual needs and preferences.",
+    your_img_url: "https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-6/418546034_361258093321690_762404682658193704_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHFKmxuO8XysW0sxMJJlJaRByBYWu5gst4HIFha7mCy3tAX2wlhRT4ToFDhpUEE6XXNS36QFAIwwS1Hz_TlTpik&_nc_ohc=XykOZBpJ-mIAX_c-ePF&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfDBULW7qiA2tukEjf5eQ1V4OJwFf8HE_N8iJ5OzPevwvQ&oe=65AD18A8",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about my self",
+    aboutme: "Christian Joel Clemen is a passionate individual with a flair for building custom PCs, combining technical expertise with a creative touch to construct high-performance systems tailored to specific needs and preferences.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "PC Builder of the year",
+        where: "Pagadian City",
         date: "2020",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Best Gaming PC build of the year",
+        where: "Bacolod",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "COOLEST Build of the year",
+        where: "Maigo",
+        date: "2021",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Assembly and Disassembly",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Software",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Troubleshooting",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Hardware Knowledge",
+        value: 80,
     },
     {
-        name: "Jquery",
+        name: "Cable Management",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Custom PC Builds",
+        description: "Design and assemble custom-built PCs tailored to the specific needs and preferences of clients. This includes selecting optimal hardware components based on the intended use (e.g., gaming, content creation, professional work) and building systems with attention to cable management, aesthetics, and performance..",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "PC Upgrades and Optimization",
+        description: "Evaluate existing computer systems and recommend upgrades to enhance performance. This could involve upgrading components such as the CPU, GPU, RAM, or storage to meet current requirements. Additionally, optimize existing systems by adjusting software settings, removing unnecessary programs, and improving overall efficiency.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Consultation and Build Planning",
+        description: "Offer consultation services to clients who are planning to build a PC themselves. Provide guidance on selecting appropriate components, ensuring compatibility, and offering advice on the latest hardware trends. This service can include detailed discussions about budget considerations, performance expectations, and future upgrade possibilities.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://res.cloudinary.com/jawa/image/upload/f_auto,ar_1:1,c_fill,w_3840,q_auto/production/listings/hdoltipmbwfoqeae6sld",
+        description: "i5 12400 and rtx 3060 Aesthetic WHITE PC Build",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://breunor.com/cdn/shop/files/Senzatitolo-5_a14027ed-03a9-412f-a8a4-209671772c49.png?v=1701249375&width=1024",
+        description: "Ryzen 7 5800X and 3080 ti",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdSn4KcjnqW2-WZK3nRdPiwquvleOXVk2EuxM3o_Whs6820rUib6o33a-kRPq477JPtYY&usqp=CAU",
+        description: "i7 13700f and RTX 4070",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "christianjoelclemen@gmail.com",
+    YOUR_FONE: "09075895053 TNT",
+    description: "Feel free to contact me, I'm here to help you with your desiring pc build.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +102,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/youngchristian",
+    facebook: "https://www.facebook.com/profile.php?id=100083125053944",
+    linkedin: "https://www.linkedin.com/in/christian-clemen-472a40297/",
+    twitter: "https://twitter.com/chrstianclemen",
 };
 export {
     meta,
